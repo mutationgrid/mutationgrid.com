@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Mutation Grid</title>
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/mg.css">
+</head>
+<body>
+<table border=0 width=100%>
+<tr>
+   <td align="center">[LOGO]</td>
+   <td>
+      <h1>Mutation Grid</h1>
+      Controlled software evolution
+   </td>
+</tr>
+</table>
+<br>
+<a href="[% c.uri_for('')        %]">Home</a> | 
+<a href="[% c.uri_for('tech')    %]">Technologies</a> | 
+<a href="[% c.uri_for('pricing') %]">Pricing</a> | 
+<a href="[% c.uri_for('faq')     %]">FAQ</a> | 
+<a href="[% c.uri_for('contact') %]">Contact</a>
+<br><br>

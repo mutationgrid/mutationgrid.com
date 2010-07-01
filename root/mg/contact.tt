@@ -1,9 +1,12 @@
 [% INCLUDE 'mg/header.tt' %]
 
 <ul>
-   <li>jhannah@mutationgrid.com
-   <li>1-402-578-3976
-   <li>irc.perl.org jhannah
+   <li><a href="http://linkedin.com/in/jhannah">Jay Hannah</a>
+   <ul>
+      <li>jhannah@mutationgrid.com
+      <li>1-402-578-3976
+      <li>irc.perl.org jhannah
+   </ul>
 </ul>
 
 [% INCLUDE 'mg/footer.tt' %]

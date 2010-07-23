@@ -1,7 +1,28 @@
 
-<br><br>
-<hr>
-<font size="1">&copy;2010 Mutation Grid Inc.</font>
+<br/><br/>
+</p>
+<hr width="200px">
+<font size="1">
+      [% link_order = [ 'Home', 'Technologies', 'Pricing', 'FAQ', 'Contact' ];
+         links = {
+            Home         => '/',
+            Technologies => 'tech',
+            Pricing      => 'pricing',
+            FAQ          => 'faq',
+            Contact      => 'contact',
+         };
+         FOREACH link IN link_order;
+            uri = links.$link;
+            IF c.req.action == uri;
+      %]
+               [% link %]
+         [% ELSE %]
+               <a href="[% c.uri_for( uri ) %]">[% link %]</a>
+         [% END %]
+         [% UNLESS link == 'Contact' %] | [% END %]
+      [% END %]
+<br/>
+&copy;2010 Mutation Grid Inc.</font>
 
 </body>
 </html>

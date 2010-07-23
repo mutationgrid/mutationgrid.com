@@ -48,7 +48,6 @@ sub default :Path {
 
 =head2 end
 
-
 Attempt to render a view, if needed.
 
 =cut

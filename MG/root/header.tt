@@ -8,10 +8,10 @@
 <table>
 <tr>
    <td>
-      <img src="/static/images/MutationGridColorSmall.png">
+      <a href="/"><img src="/static/images/MutationGridColorSmall.png" border=0></a>
    </td>
    <td width="50px"></td>
-   <td style="text-align: bottom;">
+   <td>
       <b><i>"Controlled software evolution"</i></b><br/><br/>
       [% link_order = [ 'Home', 'Technologies', 'Pricing', 'FAQ', 'Contact' ];
          links = {

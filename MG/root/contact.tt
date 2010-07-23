@@ -1,12 +1,31 @@
 [% INCLUDE 'header.tt' %]
 
-<ul>
-   <li><a href="http://linkedin.com/in/jhannah">Jay Hannah</a>
-   <ul>
-      <li>jhannah@mutationgrid.com
-      <li>1-402-578-3976
-      <li>irc.perl.org jhannah
-   </ul>
-</ul>
+<form>
+<input id="name"  name="name"  size=20 value="Name"><br/>
+<input id="email" name="email" size=20 value="Email"><br/>
+<input id="phone" name="phone" size=20 value="Phone"><br/>
+<textarea id="questions" name="questions" cols=20>
+</textarea><br/>
+<input type="submit" value="Send">
+</form>
+
+<script type="text/javascript">
+   // alert('boo!');
+   $(document).ready(function(){
+     $('#name').val('hello');
+   });
+</script>
+
+<table>
+<tr><td colspan=2>
+Or, if you prefer:
+</td><tr>
+<tr><td width=40> </td>
+<td>
+   <a href="mailto:info@mutationgrid.com">info@mutationgrid.com</a><br/>
+   1-402-578-3976<br/>
+   16204 Timberlane Drive<br/>
+   Omaha, NE  USA
+</td></tr></table>
 
 [% INCLUDE 'footer.tt' %]

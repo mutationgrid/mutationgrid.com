@@ -1,20 +1,21 @@
 [% INCLUDE 'header.tt' %]
 <p>
 Software is constantly evolving. Databases grow. 
-Business demands shift. Customer requirements change.
+Business demands shift. Requirements change.
 </p><p>
-Perhaps your business is due for a transition to the latest generation
-of technologies. Or perhaps your modern platform could use some fine tuning.
+Does your business have new technology requirements that need to be met <b><i>now</i></b>? 
+Perhaps you're due for a transition to the latest generation of technologies. 
+Or perhaps your modern platform could use some fine tuning.
 We may be able to help.
 </p><p>
-We are a small group of professionals and collaborators specializing in harnessing the 
-power of open source
-architectures to meet your daily demands. Hundreds of thousands of programmers worldwide 
-have already written countless amazing tools. We can help you apply 
-this incredible ecosystem to your immediate business needs.
+We are a small group of technology professionals focused on helping our customers meet their goals.
+Programmers and administrators (databases, Linux) specializing in harnessing the power of open source
+architectures to meet your daily business demands. 
+Countless programmers worldwide improve amazing toolsets every day. 
+We can help you apply this ever-evolving ecosystem to your immediate business needs.
 </p><p>
-Databases, data transformations, interfacing, and e-commerce (back-end, websites) are our specialties.
-We've been solving these problems for over 15 years. 
+Databases, websites, data transformations, interfacing, and e-commerce are our specialties.
+We've been solving these problems for enterprise clients for over 15 years. 
 We look forward to helping you.
 </p>
 

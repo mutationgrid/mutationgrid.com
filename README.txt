@@ -1,1 +1,1 @@
-All publicly accessible web contact for mutationgrid.com and friends.
+Publicly available content of mutationgrid.com and friends.

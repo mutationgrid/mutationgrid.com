@@ -1,4 +1,4 @@
-[% INCLUDE 'mg/header.tt' %]
+[% INCLUDE 'header.tt' %]
 
 <b>Q:</b> Why do you have an "FAQ" section if there are no frequently asked questions?<br>
 <b>A:</b> Excellent question.
@@ -14,4 +14,4 @@
           contributed back to the relevant open source communities.
 
 
-[% INCLUDE 'mg/footer.tt' %]
+[% INCLUDE 'footer.tt' %]

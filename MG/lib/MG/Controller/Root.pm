@@ -20,18 +20,19 @@ MG::Controller::Root - Root Controller for MG
 
 =head1 METHODS
 
+=cut
+
 =head2 index
 
-The root page (/)
+Requests for / 
 
 =cut
 
-sub index :Path :Args(0) {
-    my ( $self, $c ) = @_;
-
-    # Hello World
-    $c->response->body( $c->welcome_message );
-}
+sub index :Path :Args(0) { }
+sub tech :Local { }
+sub pricing :Local { }
+sub faq :Local { }
+sub contact :Local { }
 
 =head2 default
 
@@ -41,11 +42,12 @@ Standard 404 error page
 
 sub default :Path {
     my ( $self, $c ) = @_;
-    $c->response->body( 'Page not found' );
+    $c->response->body( 'Page not found. ' );
     $c->response->status(404);
 }
 
 =head2 end
+
 
 Attempt to render a view, if needed.
 

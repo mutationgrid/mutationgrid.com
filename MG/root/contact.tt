@@ -1,4 +1,4 @@
-[% INCLUDE 'mg/header.tt' %]
+[% INCLUDE 'header.tt' %]
 
 <ul>
    <li><a href="http://linkedin.com/in/jhannah">Jay Hannah</a>
@@ -9,4 +9,4 @@
    </ul>
 </ul>
 
-[% INCLUDE 'mg/footer.tt' %]
+[% INCLUDE 'footer.tt' %]

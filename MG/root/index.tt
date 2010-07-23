@@ -1,4 +1,4 @@
-[% INCLUDE 'mg/header.tt' %]
+[% INCLUDE 'header.tt' %]
 
 <p>
 Software is constantly evolving. Databases grow. 
@@ -19,4 +19,4 @@ We've been solving these problems for over 15 years.
 We look forward to helping you.
 </p>
 
-[% INCLUDE 'mg/footer.tt' %]
+[% INCLUDE 'footer.tt' %]

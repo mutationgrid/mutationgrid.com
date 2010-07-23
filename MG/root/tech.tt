@@ -1,4 +1,4 @@
-[% INCLUDE 'mg/header.tt' %]
+[% INCLUDE 'header.tt' %]
 
 <p>
 We've worked with a lot of tech over the years. Here are a few of our favorite things.
@@ -98,4 +98,4 @@ behind the pretty graphics so you have rock solid, fast tools that get the job d
    });
 </script>
 
-[% INCLUDE 'mg/footer.tt' %]
+[% INCLUDE 'footer.tt' %]

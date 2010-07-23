@@ -1,4 +1,4 @@
-[% INCLUDE 'mg/header.tt' %]
+[% INCLUDE 'header.tt' %]
 
 <ul>
   <li>$100 USD / hour - standard rate for scheduled consulting, labor
@@ -6,4 +6,4 @@
   <li>negotiable - long term contracts (3 month minimum)
 </ul>
 
-[% INCLUDE 'mg/footer.tt' %]
+[% INCLUDE 'footer.tt' %]

@@ -1,4 +1,4 @@
-package ManySites::View::TT;
+package MG::View::TT;
 
 use strict;
 use warnings;
@@ -12,19 +12,19 @@ __PACKAGE__->config(
 
 =head1 NAME
 
-ManySites::View::TT - TT View for ManySites
+MG::View::TT - TT View for MG
 
 =head1 DESCRIPTION
 
-TT View for ManySites.
+TT View for MG.
 
 =head1 SEE ALSO
 
-L<ManySites>
+L<MG>
 
 =head1 AUTHOR
 
-Jay Hannah,,,
+root
 
 =head1 LICENSE
 

@@ -1,9 +1,0 @@
-[% INCLUDE 'mg/header.tt' %]
-
-<ul>
-  <li>$100 USD / hour - standard rate for scheduled consulting, labor
-  <li>$250 USD / hour - "drop everything" 24 x 7 x 365 emergency support
-  <li>negotiable - long term contracts (3 month minimum)
-</ul>
-
-[% INCLUDE 'mg/footer.tt' %]

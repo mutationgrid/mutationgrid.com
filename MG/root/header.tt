@@ -5,19 +5,33 @@
 <link rel="stylesheet" type="text/css" href="/static/mg.css">
 </head>
 <body>
-<table border=0 width=100%>
+<table>
 <tr>
-   <td align="center">[LOGO]</td>
    <td>
-      <h1>Mutation Grid</h1>
-      Controlled software evolution
+      <img src="/static/images/MutationGridColorSmall.png">
+   </td>
+   <td width="50px"></td>
+   <td style="text-align: bottom;">
+      <b><i>"Controlled software evolution"</i></b><br/><br/>
+      [% link_order = [ 'Home', 'Technologies', 'Pricing', 'FAQ', 'Contact' ];
+         links = {
+            Home         => '/',
+            Technologies => 'tech',
+            Pricing      => 'pricing',
+            FAQ          => 'faq',
+            Contact      => 'contact',
+         };
+         FOREACH link IN link_order;
+            uri = links.$link;
+            IF c.req.action == uri;
+      %]
+               [% link %]<br/>
+         [% ELSE %]
+               <a href="[% c.uri_for( uri ) %]">[% link %]</a><br/>
+         [% END %]
+      [% END %]
    </td>
 </tr>
 </table>
-<br>
-<a href="[% c.uri_for('')        %]">Home</a> | 
-<a href="[% c.uri_for('tech')    %]">Technologies</a> | 
-<a href="[% c.uri_for('pricing') %]">Pricing</a> | 
-<a href="[% c.uri_for('faq')     %]">FAQ</a> | 
-<a href="[% c.uri_for('contact') %]">Contact</a>
-<br><br>
+
+<br/>

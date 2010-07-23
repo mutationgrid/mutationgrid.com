@@ -21,7 +21,7 @@ br {
 }
 
 td { 
-   vertical-align: middle;
+   vertical-align: bottom;
    /* background-color:#160c09; */
    font-family:Verdana;
    font-size:12px;

@@ -1,0 +1,29 @@
+body {
+   font-family:Verdana;
+   font-size:12px;
+}
+
+blockquote { 
+   background-color: #ccc;
+}
+
+h1 {
+   font-weight:bold;
+   font-family:Verdana;
+   font-size:30px;
+   line-height:30px;
+   margin:0;
+}
+
+br {
+   font-family:Verdana;
+   font-size:12px;
+}
+
+td { 
+   vertical-align: middle;
+   /* background-color:#160c09; */
+   font-family:Verdana;
+   font-size:12px;
+}
+

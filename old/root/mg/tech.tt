@@ -1,0 +1,101 @@
+[% INCLUDE 'mg/header.tt' %]
+
+<p>
+We've worked with a lot of tech over the years. Here are a few of our favorite things.
+
+<h2>Perl</h2>
+Perl is a lot of things to a lot of people. We specialize in bringing Modern Perl
+practices to your enterprise. A LOT has changed since 1987. Many shiny things 
+have been released since 2008. Give the new stuff a try. You'll like it. 
+<a href="#" id="toggle-perl-detail">[details]</a>
+<div id="perl-detail" class="detail">
+   <blockquote>
+      <a href="http://catalyst.perl.org" target="_blank">Catalyst</a> MVC Web Framework<br>
+      <a href="http://moose.perl.org" target="_blank">Moose</a> Postmodern Object System for Perl 5<br>
+      <a href="http://search.cpan.org/perldoc?DBIx::Class" target="_blank">DBIx::Class</a> Object <-> Relational mapper<br>
+      <a href="http://search.cpan.org/perldoc?POE" target="_blank">POE</a> for creating event-driven, multiplexing TCP/IP conduits<br>
+      Automated quality assurance and regression testing of business logic and web applications
+   </blockquote>
+</div>
+
+
+<h2>Databases</h2>
+We've designed, implemented, maintained, and enhanced: 
+Large, mission-critical OLTP database environments
+   driving hundreds of millions of dollars in annual revenue. 
+Large scientific datasets exploring countless genetic mutations.
+Tiny, zero-configuration databases for rapid application prototyping.
+Everything in between.
+<a href="#" id="toggle-db-detail">[details]</a>
+<div id="db-detail" class="detail">
+   <blockquote>
+      MySQL, Oracle, MS-SQL, Informix, SQLite<br>
+      Replication, maintenance, backups, disaster recovery, profiling, performance tuning
+   </blockquote>
+</div>
+
+
+<h2>Linux, Apache, GNU stack</h2>
+Scale your server farms out reliably and affordably with open source components.
+We thoroughly enjoy the satisfaction we get from setting up servers that can hum along
+for years without intervention.
+<a href="#" id="toggle-apache-detail">[details]</a>
+<div id="apache-detail" class="detail">
+   <blockquote>
+      A world-class system administrator is priceless. We don't specialize in hardware,
+      but we have many friends and colleagues who focus on iron for a living and 
+      enjoy consulting with us to come up with ideal solutions.
+   </blockquote>
+</div>
+
+
+<h2>XML, SOAP, HTTP APIs</h2>
+We implement 300-page B2B Enterprise APIs for fun. We're twisted like that. 
+Whatever your integration need to your business partners or customers, give us a try.
+<a href="#" id="toggle-xml-detail">[details]</a>
+<div id="xml-detail" class="detail">
+   <blockquote>
+      We can build just about anything with
+      <a href="http://search.cpan.org/perldoc?XML::Twig" target="_blank">XML::Twig</a>, 
+      <a href="http://search.cpan.org/perldoc?LWP" target="_blank">LWP</a>, and
+      <a href="http://search.cpan.org/perldoc?POE" target="_blank">POE</a>.
+      Impress your vendors and customers with aggressive development timelines.
+   </blockquote>
+</div>
+
+
+<h2>Websites, CSS, Javascript (jQuery)</h2>
+Design is not our focus. Luckily there are a lot of talented designers and graphic
+artists who create beautiful interfaces every day. Mutation Grid creates the technology 
+behind the pretty graphics so you have rock solid, fast tools that get the job done.
+
+<a href="#" id="toggle-web-detail">[details]</a>
+<div id="web-detail" class="detail">
+   <blockquote>
+      We make it work. Our collaborators make it pretty.
+   </blockquote>
+</div>
+
+
+<script>
+   $(document).ready(function(){
+      $(".detail").hide();
+   });
+   $("#toggle-perl-detail").click(function(){
+      $("#perl-detail").toggle(200);
+   });
+   $("#toggle-db-detail").click(function(){
+      $("#db-detail").toggle(200);
+   });
+   $("#toggle-apache-detail").click(function(){
+      $("#apache-detail").toggle(200);
+   });
+   $("#toggle-xml-detail").click(function(){
+      $("#xml-detail").toggle(200);
+   });
+   $("#toggle-web-detail").click(function(){
+      $("#web-detail").toggle(200);
+   });
+</script>
+
+[% INCLUDE 'mg/footer.tt' %]

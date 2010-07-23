@@ -1,0 +1,22 @@
+[% INCLUDE 'mg/header.tt' %]
+
+<p>
+Software is constantly evolving. Databases grow. 
+Business demands shift. Customer requirements change.
+</p><p>
+Perhaps your business is due for a transition to the latest generation
+of technologies. Or perhaps your modern platform could use some fine tuning.
+We may be able to help.
+</p><p>
+We are a small group of professionals and collaborators specializing in harnessing the 
+power of open source
+architectures to meet your daily demands. Hundreds of thousands of programmers worldwide 
+have already written countless amazing tools. We can help you apply 
+this incredible ecosystem to your immediate business needs.
+</p><p>
+Databases, data transformations, interfacing, and e-commerce (back-end, websites) are our specialties.
+We've been solving these problems for over 15 years. 
+We look forward to helping you.
+</p>
+
+[% INCLUDE 'mg/footer.tt' %]

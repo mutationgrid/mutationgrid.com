@@ -1,18 +1,58 @@
 [% INCLUDE 'header.tt' %]
 
-<form>
+<form method="POST">
 <input id="name"  name="name"  size=20 value="Name"><br/>
 <input id="email" name="email" size=20 value="Email"><br/>
 <input id="phone" name="phone" size=20 value="Phone"><br/>
-<textarea id="questions" name="questions" cols=20>
-</textarea><br/>
+<textarea id="questions" name="questions" cols=60 rows=6>
+Questions or Comments</textarea><br/>
 <input type="submit" value="Send">
 </form>
 
 <script type="text/javascript">
    // alert('boo!');
    $(document).ready(function(){
-     $('#name').val('hello');
+      // Clear the default value out of each form field
+      $('#name').focus(function(){
+         if ($('#name').val() == 'Name') { 
+            $('#name').val('');
+         }
+      });
+      $('#name').blur(function(){
+         if ($('#name').val() == '') { 
+            $('#name').val('Name');
+         }
+      });
+      $('#email').focus(function(){
+         if ($('#email').val() == 'Email') { 
+            $('#email').val('');
+         }
+      });
+      $('#email').blur(function(){
+         if ($('#email').val() == '') { 
+            $('#email').val('Email');
+         }
+      });
+      $('#phone').focus(function(){
+         if ($('#phone').val() == 'Phone') { 
+            $('#phone').val('');
+         }
+      });
+      $('#phone').blur(function(){
+         if ($('#phone').val() == '') { 
+            $('#phone').val('Phone');
+         }
+      });
+      $('#questions').focus(function(){
+         if ($('#questions').val() == 'Questions or Comments') { 
+            $('#questions').val('');
+         }
+      });
+      $('#questions').blur(function(){
+         if ($('#questions').val() == '') { 
+            $('#questions').val('Questions or Comments');
+         }
+      });
    });
 </script>
 

@@ -1,4 +1,5 @@
 package MG::Controller::Root;
+use MIME::Lite;
 use Moose;
 use namespace::autoclean;
 
@@ -32,7 +33,40 @@ sub index :Path :Args(0) { }
 sub tech :Local { }
 sub pricing :Local { }
 sub faq :Local { }
-sub contact :Local { }
+
+=head2 contact
+
+Display the form. Or, if they just submitted it, send an email.
+
+=cut
+
+sub contact :Local { 
+   my ($self, $c) = @_;
+
+   unless ($c->req->param()) {
+      $c->stash->{template} = 'contact_sent.tt';
+      return 1;  # display form
+   }
+
+   my $text;
+   $text .= "Name:  " .      $c->req->param('name') .      "\n";
+   $text .= "Email: " .      $c->req->param('email') .     "\n";
+   $text .= "Phone: " .      $c->req->param('phone') .     "\n";
+   $text .= "\n" .           $c->req->param('questions') . "\n";
+
+   my $m = MIME::Lite->new(
+      From    => "\@mutationgrid.com",
+      To      => "info\@jays.net",
+      Subject => "BLAH whatever",
+      Type    => 'multipart/related',
+   );
+   $m->attach(
+      Type     => 'TEXT',
+      Data     => $text,
+   );
+   $m->send;
+   
+}
 
 =head2 default
 

@@ -1,0 +1,5 @@
+[% INCLUDE 'header.tt' %]
+
+Thank you for contacting us. We will respond as soon as possible.
+
+[% INCLUDE 'footer.tt' %]

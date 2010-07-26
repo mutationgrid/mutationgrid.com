@@ -1,5 +1,7 @@
 package MG::Controller::Root;
 use MIME::Lite;
+use DateTime;
+use Email::Valid;
 use Moose;
 use namespace::autoclean;
 
@@ -21,7 +23,17 @@ MG::Controller::Root - Root Controller for MG
 
 =head1 METHODS
 
+=head2 auto
+
+Things that always happen.
+
 =cut
+
+sub auto :Private {
+   my ($self, $c) = @_;
+   $c->stash->{now} = DateTime->now;
+}
+
 
 =head2 index
 
@@ -43,29 +55,35 @@ Display the form. Or, if they just submitted it, send an email.
 sub contact :Local { 
    my ($self, $c) = @_;
 
-   unless ($c->req->param()) {
-      $c->stash->{template} = 'contact_sent.tt';
+   unless ($c->req->param('send')) {
       return 1;  # display form
    }
 
+   my $email = $c->req->param('email') ;
+   unless (Email::Valid->address($email)) {
+      $email = 'info@mutationgrid.com';
+   }
+   my $name = $c->req->param('name');
+
    my $text;
-   $text .= "Name:  " .      $c->req->param('name') .      "\n";
-   $text .= "Email: " .      $c->req->param('email') .     "\n";
+   $text .= "Name:   $name\n";
+   $text .= "Email:  $email\n";
    $text .= "Phone: " .      $c->req->param('phone') .     "\n";
    $text .= "\n" .           $c->req->param('questions') . "\n";
 
    my $m = MIME::Lite->new(
-      From    => "\@mutationgrid.com",
-      To      => "info\@jays.net",
-      Subject => "BLAH whatever",
+      From    => $email,
+      To      => 'info@mutationgrid.com',
+      Subject => "/contact",
       Type    => 'multipart/related',
    );
    $m->attach(
       Type     => 'TEXT',
       Data     => $text,
    );
-   $m->send;
+   $m->send || die "email send failed";
    
+   $c->stash->{template} = 'contact_sent.tt';
 }
 
 =head2 default
@@ -76,7 +94,8 @@ Standard 404 error page
 
 sub default :Path {
     my ( $self, $c ) = @_;
-    $c->response->body( 'Page not found. ' );
+    #$c->response->body( 'Page not found. ' );
+    $c->stash->{template} = '404.tt';
     $c->response->status(404);
 }
 

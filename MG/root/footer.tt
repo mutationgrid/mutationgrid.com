@@ -22,7 +22,7 @@
          [% UNLESS link == 'Contact' %] | [% END %]
       [% END %]
 <br/>
-&copy;2010 Mutation Grid Inc.</font>
+&copy;[% now.year %] Mutation Grid Inc.</font>
 
 </body>
 </html>

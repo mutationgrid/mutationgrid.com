@@ -1,0 +1,9 @@
+[% INCLUDE 'header.tt' %]
+
+<p><b>404 - Not Found</b></p>
+
+<p>
+We're sorry, that URL is not found. Please try following the links on this page.
+</p>
+
+[% INCLUDE 'footer.tt' %]

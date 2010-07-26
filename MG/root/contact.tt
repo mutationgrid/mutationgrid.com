@@ -6,7 +6,7 @@
 <input id="phone" name="phone" size=20 value="Phone"><br/>
 <textarea id="questions" name="questions" cols=60 rows=6>
 Questions or Comments</textarea><br/>
-<input type="submit" value="Send">
+<input type="submit" name="send" value="Send">
 </form>
 
 <script type="text/javascript">

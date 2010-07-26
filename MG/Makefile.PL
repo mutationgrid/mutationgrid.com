@@ -13,6 +13,8 @@ requires 'Catalyst::Runtime' => '5.80024';
 requires 'Catalyst::Plugin::ConfigLoader';
 requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Action::RenderView';
+requires 'DateTime';
+requires 'Email::Valid';
 requires 'MIME::Lite';
 requires 'Moose';
 requires 'namespace::autoclean';

@@ -44,7 +44,11 @@ for years without intervention.
    <blockquote>
       A world-class system administrator is priceless. We don't specialize in hardware,
       but we have many friends and colleagues who focus on iron for a living and 
-      enjoy consulting with us to come up with ideal solutions.
+      enjoy consulting with us to come up with ideal solutions.<br/>
+      Or, make that hardware guru obsolete via cloud computing (virtual server hosting). 
+      Amazon EC2, slicehost, linode.com, etc.<br/>
+      Either way, we take it from there and mananage all the software running on your 
+      Linux servers.
    </blockquote>
 </div>
 
@@ -72,7 +76,10 @@ behind the pretty graphics so you have rock solid, fast tools that get the job d
 <a href="#" id="toggle-web-detail">[details]</a>
 <div id="web-detail" class="detail">
    <blockquote>
-      We make it work. Our collaborators make it pretty.
+      We make it work. Our collaborators make it pretty.<br/>
+      By default (this site, for instance), we use this web stack:
+         linode.com cloud hosting, Ubuntu Linux, Apache2, mod_fastcgi, Perl, Catalyst, Template Toolkit,
+         DBIx::Class, SQLite.
    </blockquote>
 </div>
 

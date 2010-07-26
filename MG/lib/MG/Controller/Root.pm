@@ -68,7 +68,7 @@ sub contact :Local {
    my $text;
    $text .= "Name:   $name\n";
    $text .= "Email:  $email\n";
-   $text .= "Phone: " .      $c->req->param('phone') .     "\n";
+   $text .= "Phone:  " .     $c->req->param('phone') .     "\n";
    $text .= "\n" .           $c->req->param('questions') . "\n";
 
    my $m = MIME::Lite->new(

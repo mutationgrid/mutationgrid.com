@@ -38,6 +38,15 @@ hr {
 }
 
 div.main {
+   /*
    background-color: #ffffff;
+   padding-top:    1px;
+   padding-bottom: 1px;
+   padding-left:   6px;
+   padding-right:  6px;
+   box-shadow: rgba(51, 51, 51, 0.9) 0px 0px 4px;
+   -webkit-box-shadow: rgba(51, 51, 51, 0.9) 0px 0px 4px;
+   -moz-box-shadow: rgba(51, 51, 51, 0.9) 0px 0px 4px;
+   */
 }
 

@@ -1,6 +1,7 @@
 
-<br/><br/>
+</div>
 </p>
+<br/><br/>
 <hr width="200px">
 <font size="1">
       [% link_order = [ 'Home', 'Technologies', 'Pricing', 'FAQ', 'Contact' ];

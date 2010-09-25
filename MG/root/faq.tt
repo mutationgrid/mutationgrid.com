@@ -18,5 +18,18 @@
 <b>A:</b> True. We focus on making technology <i>functional</i>. We're not designers.
           There are many talented web-savvy artists who make functional things shiny for a living.
           We can introduce you to some of them if you like, and/or manage that process for you.
+<br/><br/>
+
+<b>Q:</b> Where did the name '<b>Mutation Grid</b>' come from?</br>
+<b>A:</b> In addition to his corporate day job at the time, Jay Hannah, company founder, spent 4 years 
+          as a bioinformatics hobbyist working at the University of Nebraska Medical Center.
+          One of his many projects was examining trillions of iterations of possible mutations in genetic
+          sequences (isolating strong "unique tag" candidates) using an 1,100 node server cluster or "grid."
+          Jay started referring to that project as his "mutation grid" project. The name stuck in his 
+          head for some reason, so he used it when forming the company a year later. If pressed, 
+          Jay has been known to wax poetic about the evolution of software systems (<b>Mutation</b>) and
+          techniques for controlling that process for businesses (<b>Grid</b>). Mutation Grid Inc. doesn't
+          (yet?) do any bioinformatics related consulting, but Jay continues to work interesting problems
+          in that domain from time to time. You can probably find him haunting #bioperl in IRC.
 
 [% INCLUDE 'footer.tt' %]

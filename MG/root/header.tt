@@ -30,6 +30,7 @@
                <a href="[% c.uri_for( uri ) %]">[% link %]</a><br/>
          [% END %]
       [% END %]
+      <a href="http://blogs.perl.org/users/jhannah_mutation_grid/" target="_blank">Blog</a>
    </td>
 </tr>
 </table>

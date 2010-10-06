@@ -22,6 +22,7 @@
          [% END %]
          [% UNLESS link == 'Contact' %] | [% END %]
       [% END %]
+      | <a href="http://blogs.perl.org/users/jhannah_mutation_grid/" target="_blank">Blog</a>
 <br/>
 &copy;[% now.year %] Mutation Grid Inc.</font>
 

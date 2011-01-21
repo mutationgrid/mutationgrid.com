@@ -1,6 +1,8 @@
 <html>
 <head>
-<title>Mutation Grid</title>
+<title>Database, web consulting | Mutation Grid, Inc.</title>
+<meta name="Description" content="Custom built software solutions. Databases, back-office, websites. Linux Apache MySQL Perl etc. Omaha, Nebraska." />
+<meta name="keywords" content="Linux,Apache,MySQL,Perl">
 <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/static/mg.css">
 </head>

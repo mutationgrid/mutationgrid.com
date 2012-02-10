@@ -45,6 +45,12 @@ sub index :Path :Args(0) { }
 sub tech :Local { }
 sub pricing :Local { }
 sub faq :Local { }
+sub google :Path('google6099ec808a443ea3.html') {
+   my ($self, $c) = @_;
+   $c->res->body('google-site-verification: google6099ec808a443ea3.html');
+   $c->detach;
+}
+
 
 =head2 contact
 

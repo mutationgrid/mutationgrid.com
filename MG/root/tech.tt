@@ -37,25 +37,26 @@ Everything in between.
 
 <h2>Linux, Apache, GNU stack</h2>
 Scale your server farms out reliably and affordably with open source components.
-We thoroughly enjoy the satisfaction we get from setting up servers that can hum along
-for years without intervention.
+We thoroughly enjoy the satisfaction we get from setting up servers that hum along
+for years without requiring intervention. 
+(But yes, patching your servers is always a Good Thing. :)
 <a href="#" id="toggle-apache-detail">[details]</a>
 <div id="apache-detail" class="detail">
    <blockquote>
-      A world-class system administrator is priceless. We don't specialize in hardware,
+      A world-class system administrator is priceless. We don't specialize in hosted hardware,
       but we have many friends and colleagues who focus on iron for a living and 
-      enjoy consulting with us to come up with ideal solutions.<br/>
+      enjoy consulting with us to come up with ideal solutions in your physical space.<br/>
       Or, make that hardware guru obsolete via cloud computing (virtual server hosting). 
       Amazon EC2, slicehost, linode.com, etc.<br/>
-      Either way, we take it from there and mananage all the software running on your 
-      Linux servers.
+      Either way, we'll build the solution stack you need, "web scale," so that your 
+      technology never slows your business growth. 
    </blockquote>
 </div>
 
 
-<h2>XML, SOAP, HTTP APIs</h2>
-We implement 300-page B2B Enterprise APIs for fun. We're twisted like that. 
-Whatever your integration need to your business partners or customers, give us a try.
+<h2>REST, XML, SOAP, HTTP APIs</h2>
+We implement 300 page B2B Enterprise APIs for fun. We're twisted like that. 
+Whatever business partner or customer integrations you need, give us a try.
 <a href="#" id="toggle-xml-detail">[details]</a>
 <div id="xml-detail" class="detail">
    <blockquote>

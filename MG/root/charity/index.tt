@@ -1,0 +1,75 @@
+[% INCLUDE 'header.tt' %]
+
+<style>
+   td { 
+     vertical-align: middle;
+     padding: 10px;
+   };
+</style>
+
+
+<h1>Bitcoins to Charities</h1>
+
+<p>Hello there. This is Jay Hannah, President of Mutation Grid Inc.</p>
+
+<p>I had an interesting conversation with a Bitcoin mining friend of mine today (Dec 11, 2013).
+He said that people want to give Bitcoins to charities, but charities aren't accepting them.
+I decided I'd be happy to help. If you want to give Bitcoins to charities, send Bitcoins into the
+QR codes below. Once a month I'll convert them to USD and mail each charity a check.
+</p>
+
+<table>
+<tr>
+  <td><a href="https://blockchain.info/address/1C5Y5unPXGSXdSmF6WzYXFarkeP8UVkqQG"><img src="static/images/qr/mercy_corps.png" width=100 height=100></a></td>
+  <td>
+    <a href="http://www.mercycorps.org/">Mercy Corps</a><br/>
+    PO Box 2669, Dept W<br/>
+    Portland, OR 97208-2669 USA<br/>
+    To give: (888) 747-7440
+  </td>
+</tr>
+<tr>
+  <td><a href="https://blockchain.info/address/12cUcyysQfnPpg4SoLPFMAMUwXwwCFhv6t"><img src="static/images/qr/kiva.png" width=100 height=100></a></td>
+  <td>
+    <a href="http://www.kiva.org/">Kiva</a><br/>
+    875 Howard Street, Suite #340<br/>
+    San Francisco, CA 94103 USA
+  </td>
+</tr>
+<tr>
+  <td><p style="font-size:500%; text-align:center;">?</p></td>
+  <td>
+    Your favorite charity. Email <a href="mailto:jhannah@mutationgrid.com">jhannah@mutationgrid.com</a>
+    and I'll add yours to this list.
+  </td>
+</tr>
+</table>
+
+
+<h2>The Details</h2>
+
+<ul>
+<li><strong>Q:</strong> Why am I the middle man? <strong>A:</strong> I don't want to be. 
+   Hopefully the charities above will get their own addresses. 
+   Once they do, I'll post theirs here and I'll get out of the way.
+</li>
+<li>I am providing this service free of charge. But your donations will be reduced by 1% due to
+<a href="https://coinbase.desk.com/customer/portal/articles/585625-what-is-coinbase-and-how-much-does-it-cost-to-use-">coinbase.com transaction fees</a> when I convert all the Bitcoins to USD. The QR codes above go into my <a href="https://blockchain.info">blockchain.info</a> Wallet addresses, one per charity.
+</li>
+<li>I will only cut 1 check to each charity per month. I will only cut a check once the balance on that
+QR code is equal to or greater than $100 USD. I simply don't have time to cut thousands of tiny checks. 
+I'm a busy guy.</li>
+<li>I will post all activity and accounting publicly on this website, at least monthly. 
+  If this service becomes popular I'll start a Twitter feed and blog about all the success we're having. 
+  My buddy thinks this will take off. I'm skeptical. But hopeful. :)</li>
+<li>Mutation Grid, Inc. is an S-Corporation founded in 2010 in the state of Nebraska, USA, with active 
+state of Nebraska and Federal tax ID numbers, and annual tax filings. I (Jay Hannah) am the sole 
+share holder.</li>
+<li>I'm doing this because I love my favorite charities, and would love to help them more.
+Currently my family does most of our charitable giving <a href="http://www.kiva.org/lender/jayandriazach">through Kiva</a>.
+Follow me <a href="http://twitter.com/jayhelping">on Twitter</a>.</li>
+</ul>
+
+
+
+[% INCLUDE 'footer.tt' %]

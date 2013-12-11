@@ -1,12 +1,11 @@
 [% INCLUDE 'header.tt' %]
 
 <style>
-   td { 
+   td.foo { 
      vertical-align: middle;
      padding: 10px;
    };
 </style>
-
 
 <h1>Bitcoins to Charities</h1>
 
@@ -20,8 +19,8 @@ QR codes below. Once a month I'll convert them to USD and mail each charity a ch
 
 <table>
 <tr>
-  <td><a href="https://blockchain.info/address/1C5Y5unPXGSXdSmF6WzYXFarkeP8UVkqQG"><img src="static/images/qr/mercy_corps.png" width=100 height=100></a></td>
-  <td>
+  <td class="foo"><a href="https://blockchain.info/address/1C5Y5unPXGSXdSmF6WzYXFarkeP8UVkqQG"><img src="static/images/qr/mercy_corps.png" width=100 height=100></a></td>
+  <td class="foo">
     <a href="http://www.mercycorps.org/">Mercy Corps</a><br/>
     PO Box 2669, Dept W<br/>
     Portland, OR 97208-2669 USA<br/>
@@ -29,8 +28,8 @@ QR codes below. Once a month I'll convert them to USD and mail each charity a ch
   </td>
 </tr>
 <tr>
-  <td><a href="https://blockchain.info/address/12cUcyysQfnPpg4SoLPFMAMUwXwwCFhv6t"><img src="static/images/qr/kiva.png" width=100 height=100></a></td>
-  <td>
+  <td class="foo"><a href="https://blockchain.info/address/12cUcyysQfnPpg4SoLPFMAMUwXwwCFhv6t"><img src="static/images/qr/kiva.png" width=100 height=100></a></td>
+  <td class="foo">
     <a href="http://www.kiva.org/">Kiva</a><br/>
     875 Howard Street, Suite #340<br/>
     San Francisco, CA 94103 USA
@@ -57,7 +56,7 @@ QR codes below. Once a month I'll convert them to USD and mail each charity a ch
 <a href="https://coinbase.desk.com/customer/portal/articles/585625-what-is-coinbase-and-how-much-does-it-cost-to-use-">coinbase.com transaction fees</a> when I convert all the Bitcoins to USD. The QR codes above go into my <a href="https://blockchain.info">blockchain.info</a> Wallet addresses, one per charity.
 </li>
 <li>I will only cut 1 check to each charity per month. I will only cut a check once the balance on that
-QR code is equal to or greater than $100 USD. I simply don't have time to cut thousands of tiny checks. 
+address is equal to or greater than $100 USD. I simply don't have time to cut thousands of tiny checks. 
 I'm a busy guy.</li>
 <li>I will post all activity and accounting publicly on this website, at least monthly. 
   If this service becomes popular I'll start a Twitter feed and blog about all the success we're having. 

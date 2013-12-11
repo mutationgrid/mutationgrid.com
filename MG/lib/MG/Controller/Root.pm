@@ -92,6 +92,12 @@ sub contact :Local {
    $c->stash->{template} = 'contact_sent.tt';
 }
 
+
+sub charity :Local { 
+   my ($self, $c) = @_;
+}
+
+
 =head2 default
 
 Standard 404 error page

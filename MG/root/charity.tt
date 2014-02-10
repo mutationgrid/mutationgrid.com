@@ -4,7 +4,11 @@
    td.foo { 
      vertical-align: middle;
      padding: 10px;
-   };
+   }
+   th {
+//     font-size: 18px;
+     text-align: left;
+   }
 </style>
 
 <h1>Bitcoins to Charities</h1>
@@ -36,7 +40,7 @@ Bitcoin addresses below. Once a month I'll convert them to USD and mail each cha
   </td>
 </tr>
 <tr>
-  <td><p style="font-size:500%; text-align:center;">?</p></td>
+  <td class="foo"><p style="font-size:500%; text-align:center;">?</p></td>
   <td class="foo">
     Your favorite charity. Email <a href="mailto:jhannah@mutationgrid.com">jhannah@mutationgrid.com</a>
     and I'll add yours to this list.
@@ -70,6 +74,29 @@ awesome charities? :)
 Currently my family does most of our charitable giving <a href="http://www.kiva.org/lender/jayandriazach">through Kiva</a>.
 You can follow me <a href="http://twitter.com/jayhelping">on Twitter</a>.</li>
 </ul>
+
+<h2>Activity</h2>
+
+<table>
+<tr>
+  <th>Date</th>
+  <th>MercyCorps</th>
+  <th>Kiva</th>
+  <th>Action</th>
+</tr>
+<tr>
+  <td>2014-02-03</td>
+  <td>~ $15.41</td>
+  <td>~ $5.53</td>
+  <td>No checks cut.</td>
+</tr>
+<tr>
+  <td>2014-01-02</td>
+  <td>~ $17.56</td>
+  <td>~ $6.30</td>
+  <td>No checks cut.</td>
+</tr>
+</table>
 
 
 
